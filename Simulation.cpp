@@ -26,7 +26,7 @@ void Simulation::run() {
         }
 
         // Assign worker if server is free
-       for (int i = 0; i < numServers; i++) {
+       for (int i = 0; i < numServers; i++) {gfdtrcghd
     if (!servers[i].busy && !queue.isEmpty()) {
         Worker w = queue.dequeue();
         servers[i].assignWorker(w, time);
